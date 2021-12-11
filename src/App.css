@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.background {
+  height: 70vh;
+  width: 80vw;
+  margin:1.8rem auto;
+  background-color: aliceblue;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+}
+@media (max-width: 850px) {
+  .background {
+    width: 100%;
+
+  }
+}
